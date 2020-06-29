@@ -5,7 +5,7 @@
 * [Overview](#overview)
 * [Screenshots](#screenshots)
 * [Core-Technologies](#core-technologies)
-* [Packages-Libraries](#packages-libraries)
+* [Packages](#packages)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -26,13 +26,13 @@ This is a `React` application using `React-Hooks(useState, useEffect, useContext
 ![ResponsiveMyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-mytransactions.PNG)
 
 
-## Core Technologies
+## Core-Technologies
 * ReactJS
 * Node.js
 * Express
 * MongoDB
 
-## Packages Used
+## Packages
 * JSONWebToken
 * Passport, Passport-local, Passport-jwt
 * Bcrypt
