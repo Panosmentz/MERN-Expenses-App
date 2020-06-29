@@ -4,7 +4,8 @@
 ## Table of contents
 * [Overview](#overview)
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [Core Technologies](#coretechnologies)
+* [Packaged Used](#packagesused)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -13,19 +14,29 @@
 
 ## Overview
 
-Front-end is done with `React` using `React-Hooks(useState, useEffect, useContext and useReducer)`. 
+This is a `React` application using `React-Hooks(useState, useEffect, useContext and useReducer)`.
 
 ## Screenshots
-![Landing](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/landing.PNG)
-![Login](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/login.PNG)
-![Register](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/register.PNG)
-![MyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/mytransactions.PNG)
+![Landing](https://github.com/Panosmentz/MERN-Expenses-App/blob/master/screenshots/landing.PNG)
 
-## Technologies
+
+## Core Technologies
 * ReactJS
 * Node.js
 * Express
 * MongoDB
+
+## Packages Used
+* JSONWebToken
+* Passport, Passport-local, Passport-jwt
+* Bcrypt
+* Mongoose
+* Cookie-parser
+* React-Router-DOM
+* Axios
+* React-Bootstrap, Bootstrap v4.5.0
+* React-toastify
+* Framer-motion
 
 ## Setup
 Clone this repository or download .zip and open the folder in your editor.
@@ -41,14 +52,14 @@ npm install`
 >You also need to specify your `SECRET_OR_KEY` for PassportJS
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* 
+* 
+* 
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Add categories and charts
+* Add user roles
+* Add admin page
 
 ## Status
 Project is: _in progress_
