@@ -17,7 +17,10 @@
 This is a `React` application using `React-Hooks(useState, useEffect, useContext and useReducer)`.
 
 ## Screenshots
-![Landing](https://github.com/Panosmentz/MERN-Expenses-App/blob/master/screenshots/landing.PNG)
+![Landing](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/landing.PNG)
+![Login](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/login.PNG)
+![Register](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/register.PNG)
+![MyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/mytransactions.PNG)
 
 
 ## Core Technologies
