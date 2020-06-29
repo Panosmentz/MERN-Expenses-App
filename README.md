@@ -1,5 +1,5 @@
 # MERN Expense-Tracker
-> This is a full stack web application using the MERN stack. The app features many technologies such as JWT, passportJS and more. 
+> This is a full stack web application using the MERN stack. The app features technologies such as JWT, passportJS, React-Bootstrap and more. 
 
 ## Table of contents
 * [Overview](#overview)
@@ -7,7 +7,7 @@
 * [Core-Technologies](#core-technologies)
 * [Packages](#packages)
 * [Setup](#setup)
-* [Features](#features)
+* [TODO](#todo)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -59,11 +59,7 @@ npm install`
 
 >For `development mode` navigate to the root directory -> `npm run dev`. This starts the server and the client concurrently. 
 
-## Features
-* 
-* 
-* 
-
+## TODO
 To-do list:
 * Add categories and charts
 * Add user roles
