@@ -1,5 +1,5 @@
 # MERN Expense-Tracker
-> This is a full stack web application using the MERN stack. 
+> This is a full stack web application using the MERN stack. The app features many technologies such as JWT, passportJS and more. 
 
 ## Table of contents
 * [Overview](#overview)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-This is a `React` application using `React-Hooks(useState, useEffect, useContext and useReducer)`.
+
 
 ## Screenshots
 ![Landing](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/landing.PNG)
@@ -56,6 +56,8 @@ npm install`
 >Lastly, you need to set the environment variables for the project.
 >Create a new file `config.env`inside the `config` folder. Inside this file you need to set the `NODE_ENV = development` if you are in development mode. Set the `PORT = 5000`. You also need to set your `MONGO_URI` if you use MongoDB Atlas for your database.
 >You also need to specify your `SECRET_OR_KEY` for PassportJS
+
+>For `development mode` navigate to the root directory -> `npm run dev`. This starts the server and the client concurrently. 
 
 ## Features
 * 
