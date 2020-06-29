@@ -21,8 +21,6 @@ This is a `React` application using `React-Hooks(useState, useEffect, useContext
 ![Login](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/login.PNG)
 ![Register](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/register.PNG)
 ![MyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/mytransactions.PNG)
-`Fully responsive`
-![ResponsiveLanding](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive%20landing.PNG)
 ![ResponsiveLogin](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-login.PNG)
 ![ResponsiveDashboard](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-dashboard.PNG)
 ![ResponsiveMyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-mytransactions.PNG)
