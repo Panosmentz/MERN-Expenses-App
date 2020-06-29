@@ -16,7 +16,7 @@
 Front-end is done with `React` using `React-Hooks(useState, useEffect, useContext and useReducer)`. 
 
 ## Screenshots
-![Landing](https://github.com/Panosmentz/MERN-Expenses-App/blob/master/screenshots/landing.PNG)
+![Landing](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/landing.PNG)
 
 ## Technologies
 * ReactJS
