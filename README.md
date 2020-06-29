@@ -4,8 +4,8 @@
 ## Table of contents
 * [Overview](#overview)
 * [Screenshots](#screenshots)
-* [Core Technologies](#coretechnologies)
-* [Packaged Used](#packagesused)
+* [Core-Technologies](#core-technologies)
+* [Packages-Libraries](#packages-libraries)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
