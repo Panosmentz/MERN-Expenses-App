@@ -9,11 +9,13 @@
 * [Setup](#setup)
 * [TODO](#todo)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## Overview
+>Front-end : React with the use of React-Hooks.
+>The application state management is done with the useContext and useReducer hooks. 
 
+>Back-end : 
 
 
 ## Screenshots
@@ -67,9 +69,6 @@ To-do list:
 
 ## Status
 Project is: _in progress_
-
-## Inspiration
-Project inspired by [@BradTraversy](https://github.com/bradtraversy)
 
 ## Contact
 Created by [@Panagiotis Mentzelopoulos](https://determined-saha-b25d49.netlify.app/) - feel free to contact me!
