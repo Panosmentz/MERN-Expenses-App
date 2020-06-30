@@ -71,7 +71,7 @@ To-do list:
 ## Status
 Project is: _in progress_
 
-## LiveDemo
+## Live-Demo
 [Live Demo](https://guarded-wildwood-06153.herokuapp.com/)
 
 ## Contact
