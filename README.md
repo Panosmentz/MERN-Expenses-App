@@ -12,21 +12,21 @@
 * [Contact](#contact)
 
 ## Overview
->Front-end : React with the use of React-Hooks.
->The application state management is done with the useContext and useReducer hooks. 
+>Front-end : React with the use of React-Hooks. The application state management is done with the useContext and useReducer hooks. Routing is facilitated by react-router.
 
->Back-end : 
+>Back-end : Node.js and Express. Passport local handles the registration and then JWT and passport-jwt is responsible for the authentication and authorization.
 
+>Database: The database lives on MongoDB Atlas. There are two models in the database. One of them is the User model that stores information about the user such as name, email and password. The other one is for the Transactions where the creator of each transaction is referenced. 
+
+>The gist : A user registers with a name, email and password. If the email is taken, a message is displayed. On successful registration, the password is hashed with bcrypt and stored in the database. After this, the user gets redirected to the login page. On successful login, cookieParser sets a JWT access_token to the response as a Cookie. Every request to the server is then authenticated/authorized with passport-jwt. On logout the Cookie is deleted from the browser. To handle Auth and App state, useContext is used with the help of useReducer. All the components are wrapped around AuthContext and TransactionsContext providers. 
+
+>Styling : CSS3, React-Bootstrap and Bootstrap v4.5 . Messages are done with the use of react-toastify and animations with Framer Motion.
 
 ## Screenshots
 ![Landing](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/landing.PNG)
-![Login](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/login.PNG)
-![Register](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/register.PNG)
-![MyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/mytransactions.PNG)
 ![ResponsiveLogin](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-login.PNG)
 ![ResponsiveDashboard](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-dashboard.PNG)
 ![ResponsiveMyTransactions](https://github.com/Panosmentz/Projects-Screenshots/blob/master/MERN-Expenses-screenshots/responsive-mytransactions.PNG)
-
 
 ## Core-Technologies
 * ReactJS
