@@ -9,6 +9,7 @@
 * [Setup](#setup)
 * [TODO](#todo)
 * [Status](#status)
+* [Live-Demo](#live-demo)
 * [Contact](#contact)
 
 ## Overview
@@ -69,6 +70,9 @@ To-do list:
 
 ## Status
 Project is: _in progress_
+
+## LiveDemo
+[Live Demo](https://guarded-wildwood-06153.herokuapp.com/)
 
 ## Contact
 Created by [@Panagiotis Mentzelopoulos](https://determined-saha-b25d49.netlify.app/) - feel free to contact me!
