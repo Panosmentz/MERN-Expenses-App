@@ -68,9 +68,6 @@ To-do list:
 * Add user roles
 * Add admin page
 
-## Status
-Project is: _in progress_
-
 ## Live-Demo
 [Live Demo](https://guarded-wildwood-06153.herokuapp.com/)
 
