@@ -8,7 +8,6 @@
 * [Packages](#packages)
 * [Setup](#setup)
 * [TODO](#todo)
-* [Status](#status)
 * [Live-Demo](#live-demo)
 * [Contact](#contact)
 
