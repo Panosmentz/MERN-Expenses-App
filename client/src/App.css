@@ -1,0 +1,209 @@
+html,
+body,
+#root,
+.App {
+  background-color: #4e5461;
+  height: 100vh;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-top: auto;
+}
+
+:root {
+  --box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
+}
+.h2 {
+  color: #3091ff;
+}
+.selected {
+  background: #3091ff;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background: #3091ff;
+}
+.nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.login-container {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  border: 2px solid #5f747d;
+  box-shadow: var(--box-shadow);
+}
+
+.register-container {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  border: 2px solid #5f747d;
+  box-shadow: var(--box-shadow);
+}
+
+.welcome-svg {
+  margin-top: 20px;
+}
+.login-btn {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #3091ff;
+  border-radius: 3px;
+  border: 1px solid #607394;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+}
+.my-transactions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.balance-div {
+  text-align: center;
+
+  margin: 50px 0;
+  background-color: #343a40;
+  border-radius: 15px 15px 15px 15px;
+
+  box-shadow: var(--box-shadow);
+}
+
+.inc-exp-div {
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  background-color: #343a40;
+}
+
+.add-exp-div {
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+
+  box-shadow: var(--box-shadow);
+  background-color: #343a40;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
+
+.list {
+  margin-top: 50px;
+  background-color: #343a40;
+  border-radius: 15px 15px 15px 15px;
+
+  box-shadow: var(--box-shadow);
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.list li {
+  background-color: #f2f3f5;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+.Add-Transaction-btn {
+  cursor: pointer;
+  background-color: #3091ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-div {
+  position: fixed;
+  bottom: 0;
+  left: -1%;
+  width: 30px;
+}
+
+.contact-modal .modal-content {
+  background-color: #343a40;
+}
+.modal-items {
+  font-size: 50px;
+  text-align: center;
+}
+.modal-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
